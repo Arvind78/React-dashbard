@@ -26,7 +26,7 @@
 
 .login-form input{
     width: 100%;
-    padding: 0.6rem ;
+    padding: 6px ;
     border: 1px solid #ccc;
     border-radius: 0.25rem;
 }
@@ -55,6 +55,9 @@
 
  
 
+.input-groups input::placeholder{
+    font-size:14px ;
+    }
 .input-groups input:focus{
     outline: none;
     border-color: #007bff;

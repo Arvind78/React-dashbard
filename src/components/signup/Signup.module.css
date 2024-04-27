@@ -55,6 +55,9 @@
     border-color: #007bff;
 }
 
+.inputGroup input::placeholder{
+font-size:14px ;
+}
 
 
 .signupButton{
