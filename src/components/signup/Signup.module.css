@@ -38,7 +38,7 @@
 
 .inputGroup input{
     width: 100%;
-    padding: 10px;
+    padding: 7px;
     border: 1px solid #ccc;
     border-radius: 5px;
     outline: none;
@@ -106,5 +106,10 @@
     transition: 450ms ease-in;
 }
 
+
+.formContainer h2{
+    font-size: 20px;
+  
+}
  
 
