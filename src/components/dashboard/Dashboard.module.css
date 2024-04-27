@@ -1,0 +1,44 @@
+.dashboard{
+    /* grid 2 row and 3 colums per row with responsive */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    /* padding: 1rem; */
+
+     
+
+
+}
+
+.Filter_item{
+    margin: 25px;
+}
+
+ 
+.Filter_select{
+border: 1px solid #ccc;
+border-radius: 4px;
+padding: 0.5rem;
+margin-bottom: 1rem;
+color: black;
+margin: 0px 5px;
+}
+
+.Filter_select:focus{
+outline: none;
+}
+
+.Filter_select option{
+padding: 0.5rem;
+}
+
+.Filter_select option:hover{
+background-color: #f7f7f7;
+}
+
+.Filter_select option:checked{
+background-color: #f7f7f7;
+}

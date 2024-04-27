@@ -1,0 +1,9 @@
+[build]
+  command = "bun run build"  # The build command for your project
+  publish = "dist"           # The directory to publish after building
+
+# Redirects configuration
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
